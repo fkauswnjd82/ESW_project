@@ -7,21 +7,21 @@ import random
 def main():
     
     # 이미지 경로로 가져오기
-    stick_run_0_path = "/home/kau-esw/RunAndHit/image/Character_run_0.png"
-    stick_run_1_path = "/home/kau-esw/RunAndHit/image/Character_run_1.png"
-    stick_jump_path = "/home/kau-esw/RunAndHit/image/Character_jump.png"
-    stick_slide_path = "/home/kau-esw/RunAndHit/image/Character_slide.png"
-    background_path = "/home/kau-esw/RunAndHit/image/Background.png"
-    wood_block_path = "/home/kau-esw/RunAndHit/image/WoodBlock.png"
-    wood_wall_path = "/home/kau-esw/RunAndHit/image/WoodWall.png"
-    thron_1_path = "/home/kau-esw/RunAndHit/image/Thron_1.png"
-    thron_2_path = "/home/kau-esw/RunAndHit/image/Thron_2.png"
-    thron_3_path = "/home/kau-esw/RunAndHit/image/Thron_3.png"
-    fireball_0_path = "/home/kau-esw/RunAndHit/image/Fireball_0.png"
-    fireball_1_path = "/home/kau-esw/RunAndHit/image/Fireball_1.png"
-    platform_path = "/home/kau-esw/RunAndHit/image/Platform.png"
-    start_path = "/home/kau-esw/RunAndHit/image/Start.png"
-    gameover_path = "/home/kau-esw/RunAndHit/image/Gameover.png"
+    stick_run_0_path = "/home/kau-esw/ESW_project/RunAndHit/image/Character_run_0.png"
+    stick_run_1_path = "/home/kau-esw/ESW_project/RunAndHit/image/Character_run_1.png"
+    stick_jump_path = "/home/kau-esw/ESW_project/RunAndHit/image/Character_jump.png"
+    stick_slide_path = "/home/kau-esw/ESW_project/RunAndHit/image/Character_slide.png"
+    background_path = "/home/kau-esw/ESW_project/RunAndHit/image/Background.png"
+    wood_block_path = "/home/kau-esw/ESW_project/RunAndHit/image/WoodBlock.png"
+    wood_wall_path = "/home/kau-esw/ESW_project/RunAndHit/image/WoodWall.png"
+    thron_1_path = "/home/kau-esw/ESW_project/RunAndHit/image/Thron_1.png"
+    thron_2_path = "/home/kau-esw/ESW_project/RunAndHit/image/Thron_2.png"
+    thron_3_path = "/home/kau-esw/ESW_project/RunAndHit/image/Thron_3.png"
+    fireball_0_path = "/home/kau-esw/ESW_project/RunAndHit/image/Fireball_0.png"
+    fireball_1_path = "/home/kau-esw/ESW_project/RunAndHit/image/Fireball_1.png"
+    platform_path = "/home/kau-esw/ESW_project/RunAndHit/image/Platform.png"
+    start_path = "/home/kau-esw/ESW_project/RunAndHit/image/Start.png"
+    gameover_path = "/home/kau-esw/ESW_project/RunAndHit/image/Gameover.png"
     
     stick_run_0_image = Image.open(stick_run_0_path)
     stick_run_1_image = Image.open(stick_run_1_path)
