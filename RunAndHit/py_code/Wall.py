@@ -2,7 +2,6 @@ import numpy as np
 
 class Wall:
     def __init__(self, spawn_position, num):
-        self.appearance = 'rectangle'
         self.is_out = False
         self.state = 'wall'
         self.outline = "#FF0000"

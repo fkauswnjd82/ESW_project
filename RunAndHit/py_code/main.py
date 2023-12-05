@@ -156,7 +156,7 @@ def main():
                         Ground.makeMaps(grounds, walls, throns, randInt)
                         
                 # 충돌영역
-                #my_draw.rectangle(tuple(ground.position), outline = ground.outline, fill = None)
+                my_draw.rectangle(tuple(ground.position), outline = ground.outline, fill = None)
                 
                 # 장소영역은 충돌 안하게
                 if ground.state != 'lastPos':
@@ -180,7 +180,7 @@ def main():
                 else:
                     my_image.paste(thron_3_image, (thron.position[0] - 10, thron.position[1] - 10), thron_3_image)
                 # 충돌영역
-                #my_draw.rectangle(tuple(thron.position), outline = thron.outline, fill = None)
+                my_draw.rectangle(tuple(thron.position), outline = thron.outline, fill = None)
                 thron.collision_check(stickman)
                 thron.move(stickman.speed)
 
@@ -200,7 +200,7 @@ def main():
                 elif wall.state == 'fireball':
                     my_image.paste(fireball_image, (wall.position[0] - 10, wall.position[1] - 10), fireball_image)
                 # 충돌영역
-                #my_draw.rectangle(tuple(wall.position), outline = '#FF0000', fill = None)
+                my_draw.rectangle(tuple(wall.position), outline = '#FF0000', fill = None)
                 wall.collision_check(stickman)
                 wall.move(stickman.speed)
         
@@ -213,7 +213,7 @@ def main():
                 my_image.paste(stick_jump_image, (stickman.position[0], stickman.position[1]), stick_jump_image)
 
             # 스틱맨 충돌영역
-            #my_draw.rectangle(tuple(stickman.position), outline = stickman.outline, fill = None)
+            my_draw.rectangle(tuple(stickman.position), outline = stickman.outline, fill = None)
 
             # 죽었는지 조사
             if stickman.state == 'die' or stickman.position[1] > 240:

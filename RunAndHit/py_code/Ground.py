@@ -8,8 +8,6 @@ joystick = Joystick()
 
 class Ground:
     def __init__(self, spawn_position, num):
-        
-        self.appearance = 'rectangle'
         self.is_out = False
         self.state = 'ground'
         self.outline = "#FF0000"
